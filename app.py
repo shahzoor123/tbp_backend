@@ -21,10 +21,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MAX_EDGE = 1280  # server-side resize max edge (tweak for speed/quality)
+MAX_EDGE = 720  # server-side resize max edge (tweak for speed/quality)
 
 # ✅ Create session once at startup
-session = new_session("isnet-general-use")
+session = new_session("u2netp")
 
 
 def downscale_bytes(img_bytes: bytes, max_edge=MAX_EDGE):
