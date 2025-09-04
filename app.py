@@ -23,7 +23,7 @@ app.add_middleware(
 
 MAX_EDGE = 720  # server-side resize max edge (tweak for speed/quality)
 
-# ✅ Create session once at startup
+# ✅ Create session once at startup  w
 session = new_session("u2netp")
 
 
